@@ -1,0 +1,16 @@
+Folder contains python scripts to process data contained in '/CSE184-Final/data' folder
+
+processData.py -gathers data from Spotify on all songs scraped from billboard top100 from 2005-2018.
+				data is saved to a csv. 
+
+processAlbumData.py -gathers data from Spotify on all albums scraped from billboard top200 albums from 2005-2018.
+				data is saved to a csv.
+
+processGenreData.py -gathers data from Spotify on all songs scraped from billboard top100 by genre from 2005-2018.
+				data is saved to a csv.
+
+splitGenres.py -manipulates metadata from top genre scraper('scraper/GenreScraper.py') to save each top genre in its own csv file
+
+processData.py -gathers data from Spotify on all songs scraped from billboard top100 from 2005-2018.
+				data is saved to a csv.
+				
